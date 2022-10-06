@@ -1,0 +1,49 @@
+.layui-footer{
+  text-align: center;
+  font-size: 12px;
+  background-color: #cdcdcd7d;
+}
+.iconfont,
+.layui-icon{
+  margin-right: 8px;
+}
+.layui-icon{
+  margin-left: 20px;
+}
+iframe{
+  width: 100%;
+  height: 100%;
+}
+.layui-body{
+  overflow: hidden;
+}
+a{
+  transition: none !important;
+}
+.user-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  height: 60px;
+}
+.user-box .layui-nav-img{
+  display: none;
+}
+.user-box .user-text{
+  background-color: rgba(255, 255, 255, 0.397);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  line-height: 35px;
+  margin-right: 5px;
+  user-select: none;
+  display: none;
+}
+.user-box .text{
+  user-select: none;
+}
