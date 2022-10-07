@@ -1,0 +1,10 @@
+body,
+html{
+  margin: 0;
+  position: 0;
+  background-color: #f2f4f5;
+}
+.layui-card{
+  padding: 15px;
+  margin: 15px;
+}

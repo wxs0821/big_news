@@ -1,0 +1,23 @@
+body,
+html{
+  margin: 0;
+  position: 0;
+  background-color: #f2f4f5;
+}
+.layui-card{
+  padding: 15px;
+  margin: 15px;
+}
+.layui-card-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.layui-card-header .title{
+  font-size: 20px;
+  font-weight: 700;
+}
+#AddForm{
+  padding-top: 15px;
+  padding-right: 30px;
+}
