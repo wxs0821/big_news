@@ -18,6 +18,7 @@ $(function () {
   }
   let index = null
   $('#btnAddCate').on('click', function () {
+    isEdit = false
     index = layer.open({
       type: 1,
       area: ['500px', '300px'],
@@ -84,7 +85,7 @@ $(function () {
   })
   $('tbody').on('click', '.btn-delete', function () {
     const re = confirm('确认删除吗')
-    const id = $('.btn-edit').attr('data-id')
+    const id = $(this).attr('data-id')
     if (re) {
       $.ajax({
         method: 'DELETE',
